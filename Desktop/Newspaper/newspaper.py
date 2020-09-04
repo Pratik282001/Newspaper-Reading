@@ -5,7 +5,6 @@ import json
 def speak(str):
     time.sleep(1)
     speak= Dispatch("SAPI.SpVoice")
-
     speak.Speak(str)
 
 if __name__ == '__main__':
